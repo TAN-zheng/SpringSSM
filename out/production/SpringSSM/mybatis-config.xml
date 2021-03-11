@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD config 3.0//EN"
+        "http://www.mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+<!--    扫描指定包下的类，这些类都被自动赋予了与类同名的别名，不区分大小写，别名中不包含包名。-->
+    <typeAliases>
+        <package name="com.stx.po"/>
+    </typeAliases>
+</configuration>
